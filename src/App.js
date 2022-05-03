@@ -41,12 +41,9 @@ function App() {
         <div className="box">
           <div className="row">
             <p>Total Value Locked</p>
-            <p>0</p>
+            <p>0 BNB</p>
           </div>
-          <div className="row">
-            <p>claimable food stamps</p>
-            <p>0 stamps</p>
-          </div>
+          
           <div className="row">
             <p>Your Wallet</p>
             <p>0.00 BNB</p>
