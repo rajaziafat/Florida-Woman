@@ -238,7 +238,10 @@
 .box ul li {
   font-size: 1rem;
   color: rgb(109, 109, 109);
-}
+
+  }
+
+  .jeets-img{width: 100%;}
 @media screen and (max-width: 932px) {
   .bottom-app {
     width: 95%;

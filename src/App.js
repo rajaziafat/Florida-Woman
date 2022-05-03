@@ -6,6 +6,7 @@ import social2 from "./Assets/social2.svg";
 import social3 from "./Assets/social3.svg";
 import meta from "./Assets/meta.svg";
 import connect from "./Assets/connect.svg";
+import jeets from "./Assets/jeets.png"
 function App() {
   const [open, setOpen] = useState(false);
   return (
@@ -81,7 +82,7 @@ function App() {
           </div>
           <div className="row">
             <p>APR (DOES NOT INCLUDE COMPOUNDS)</p>
-            <p>3650%</p>
+            <p>10%</p>
           </div>
           <div className="row">
             <p>Taxes</p>
@@ -106,7 +107,14 @@ function App() {
             </li>
           </ul>
         </div>
+
+        <div className="row"> 
+
+        <img src={jeets} alt=""  className="jeets-img"/> 
+
+        </div>
         <div className="social-div">
+        
           <a href="#">
             <img src={social1} alt="" />
           </a>
