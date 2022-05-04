@@ -6,7 +6,8 @@ import social2 from "./Assets/social2.svg";
 import social3 from "./Assets/social3.svg";
 import meta from "./Assets/meta.svg";
 import connect from "./Assets/connect.svg";
-import jeets from "./Assets/jeets.png"
+import jeets from "./Assets/jeets.png";
+import trash from "./Assets/trash.png";
 function App() {
   const [open, setOpen] = useState(false);
   return (
@@ -26,8 +27,8 @@ function App() {
         </div>
       </div>
       <div className="top-app">
-        <img src={logo} alt="" />
-        <p>The Trashiest, Most Sustainable Bitch in the Trailer Park</p>
+        <img className="logo" src={logo} alt="" />
+        <img src={trash} alt="" className="trash" />
         <p className="small-p">
           For Absolute Best Returns, Compound for 6 straight days, then Cash in
           Child Support on the 7th. Rinse, Repeat - and you will make ridiculous
@@ -44,7 +45,7 @@ function App() {
             <p>Total Value Locked</p>
             <p>0 BNB</p>
           </div>
-          
+
           <div className="row">
             <p>Your Wallet</p>
             <p>0.00 BNB</p>
@@ -82,7 +83,7 @@ function App() {
           </div>
           <div className="row">
             <p>APR (DOES NOT INCLUDE COMPOUNDS)</p>
-            <p>10%</p>
+            <p>1,460%</p>
           </div>
           <div className="row">
             <p>Taxes</p>
@@ -108,13 +109,10 @@ function App() {
           </ul>
         </div>
 
-        <div className="row"> 
-
-        <img src={jeets} alt=""  className="jeets-img"/> 
-
+        <div className="row">
+          <img src={jeets} alt="" className="jeets-img" />
         </div>
         <div className="social-div">
-        
           <a href="#">
             <img src={social1} alt="" />
           </a>

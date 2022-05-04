@@ -13,6 +13,10 @@
   padding: 3rem 0rem;
   overflow-x: hidden;
 }
+.trash {
+  max-width: 850px !important;
+  object-fit: contain;
+}
 .link {
   color: white;
   text-decoration: none;
@@ -33,7 +37,7 @@
   /* padding: 0rem 1rem; */
 }
 
-.top-app img {
+.logo {
   max-width: 350px;
   object-fit: contain;
 }
@@ -238,10 +242,11 @@
 .box ul li {
   font-size: 1rem;
   color: rgb(109, 109, 109);
+}
 
-  }
-
-  .jeets-img{width: 100%;}
+.jeets-img {
+  width: 100%;
+}
 @media screen and (max-width: 932px) {
   .bottom-app {
     width: 95%;
@@ -254,6 +259,9 @@
   .top-app p {
     width: 90%;
     font-size: 1.1rem;
+  }
+  .trash {
+    max-width: 100% !important;
   }
 }
 @media screen and (max-width: 770px) {
@@ -276,7 +284,10 @@
     flex: none;
     width: 100%;
   }
-  .top-app img {
+  .logo {
     width: 350px;
+  }
+  .trash {
+    max-width: 100% !important;
   }
 }
