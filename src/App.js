@@ -8,6 +8,7 @@ import meta from "./Assets/meta.svg";
 import connect from "./Assets/connect.svg";
 import jeets from "./Assets/jeets.png";
 import trash from "./Assets/trash.png";
+import trashMob from "./Assets/trash-mob.png"
 function App() {
   const [open, setOpen] = useState(false);
   return (
@@ -29,6 +30,7 @@ function App() {
       <div className="top-app">
         <img className="logo" src={logo} alt="" />
         <img src={trash} alt="" className="trash" />
+        <img src={trashMob} alt="" className="trash-mob" />
         <p className="small-p">
           For Absolute Best Returns, Compound for 6 straight days, then Cash in
           Child Support on the 7th. Rinse, Repeat - and you will make ridiculous
